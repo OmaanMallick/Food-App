@@ -6,7 +6,7 @@ export default function home() {
   return (
     <SafeAreaView>
     <View>
-      <Text>Hello</Text>
+      <Text>Hellooooo</Text>
     </View>
     </SafeAreaView>
   )
