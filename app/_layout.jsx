@@ -7,7 +7,7 @@ export default function Hello() {
   return (
     <Stack>
       <Stack.Screen name="(tabs)" options={{
-        headerShown:false}} />
+        headerShown:false }} />
     </Stack>
     
   )
