@@ -8,13 +8,20 @@ import { FontAwesome } from '@expo/vector-icons';
 
 export default function tabslayout() {
   return (
-    <Tabs> 
+    <Tabs screenOptions={{
+      headerShown: false,
+      tabBarActiveTintColor: 'grey',
+  }}> 
         <Tabs.Screen name="home" options={{
-        headerShown:false,  tabBarLabel: 'Home',tabBarIcon: ({}) =>(
+        headerShown:false,  tabBarLabel: 'Home',  
+        tabBarIcon: ({}) =>(
           <Entypo name='home' size={24} color="grey"/>
-      )}}  />
+      )
+      }}/>
         <Tabs.Screen name="ourstore" options={{ 
-        headerShown:false ,  tabBarLabel: 'Our Store',   tabBarIcon: ({}) =>(
+        headerShown:false , 
+         tabBarLabel: 'Our Store', 
+          tabBarIcon: ({}) =>(
           <FontAwesome5 name="store" size={20} color= "grey"  />
       )}} />
         <Tabs.Screen name="order" options={{
