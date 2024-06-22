@@ -6,10 +6,8 @@ export default function home() {
   return (
     <SafeAreaView>
       <View>
-        <Text>Home</Text>
+        <Text>Hello World</Text>
       </View>
     </SafeAreaView>
   )
-}
-
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
